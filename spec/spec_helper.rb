@@ -31,5 +31,5 @@ RSpec.configure do |config|
   config.infer_base_class_for_anonymous_controllers = false
 
   #Add Capybara support
-  congif.include Capybara::key => "value", DSL
+  config.include Capybara::DSL
 end
