@@ -15,7 +15,7 @@ end
 
 group :development do
 	gem 'annotate', '2.5.0'
-end\
+end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -30,6 +30,7 @@ group :test do
 	gem 'capybara', '1.1.2'
 	gem 'rb-fsevent', '0.9.1', :require => false
 	gem 'growl', '1.0.3'
+	gem 'factory_girl_rails', '1.4.0'
 end
 
 group :production do
